@@ -137,15 +137,15 @@ nav #search {
 
 
 
+
 .How h1{
 	background: #C4C4C4;
-	padding: 20px;
 	text-align: center;
 	font-family: Roboto;
 	font-weight: bold;
-	font-size: 28px;
+	font-size: 40px;
+	padding: 60px;
 	letter-spacing: 0.01em;
-	border-radius: 10px;
 }
 
 .container .top-content {
@@ -229,7 +229,6 @@ h2 {
 	display: flex;
 	justify-content: space-around;
 	background: #C4C4C4;
-	border-radius: 20px;
 }
 
 footer p {
@@ -242,10 +241,13 @@ footer p {
     max-width: 800px;
     margin: auto;
   }
+	.img2 {
+		display: none;
+	}
+	
 	.img3 {
 		display: inline;
 	}
-	
  
   #search {
     padding: 5px;
@@ -266,6 +268,7 @@ footer p {
     width: 100%;
     padding: 10px;
   }
+
 }
 
 
@@ -310,7 +313,7 @@ footer p {
 	.How h1 {
 		width: 100%;
 		background: #C3C2;
-		padding: 30px;
+		padding: 50px;
 		text-align: center;
 		font-family: Roboto;
 		font-weight: bold;
@@ -337,6 +340,14 @@ footer p {
 		display: flex;
 		justify-content: center;
 		margin: 50px;
+	}
+	
+	.img2 {
+		display: none;
+	}
+	
+	.img3 {
+		display: none;
 	}
 	h2 {
 		font-size: 30px;
