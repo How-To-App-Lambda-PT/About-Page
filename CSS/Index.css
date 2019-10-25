@@ -267,6 +267,9 @@ footer {
 footer p {
   margin: 10px;
 }
+.container {
+  border: #c4c4c4 dashed;
+}
 .container .How h1 {
   background: #c4c4c4;
   padding: 100px;
