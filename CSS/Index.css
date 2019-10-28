@@ -202,6 +202,12 @@ nav a {
   /* or 20px */
   letter-spacing: 0.01em;
 }
+nav a:hover {
+  border-radius: 4px;
+  padding: 10px;
+  background: #ffffff;
+  color: #346f2f;
+}
 nav .nav-link {
   width: 15%;
   display: flex;
@@ -235,6 +241,9 @@ nav #search {
     justify-content: center;
     width: 100%;
     padding: 10px;
+  }
+  nav a:hover {
+    text-align: center;
   }
 }
 @media (max-width: 500px) {
